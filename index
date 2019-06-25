@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UT-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <h1>Pyber Project</h1>
+        <p>The goal of the Pyber Project is represent data analysis from two sources.
+            The analysis took place in a jupyter notebook using Python as the language.
+            The Dependencies imported were Matplotlib, Pandas, and Numpy.  </p>
+        <p>First I imported the City CSV and Ride CSV as DataFrames. 
+            After reading the CSVs I merged the data on the common column, city.</p>
+        <p>Usuing Panadas I grouped data by the type of city (Urban, Suburban, and Rural) and city 
+            when preforming calculations for the number of rides, the average fare and number of drivers.</p>
+        <p>I created a scatter plot using Matplotlib. Color coding indiviudal cities
+            by the type of city showed trends among the types of city. 
+            By setting the size of the point to the number drivers in a city
+            we are able to see how the supply of drivers interacts with number of rides
+            and the average fare in a city.</p>
+        <p>The last part of the analysis was to create Pie Charts representing the data 
+            through pie charts. This allowed for more singular analysis of the variables.
+        </p>
+        <a href="https://github.com/smaups/matplotlib_pyber" target="_blank">Check out Pyber Project Here!</a>
+    </body>
+</html>
